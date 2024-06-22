@@ -56,18 +56,18 @@ function App() {
               <hr className='horizontal' />
             </div>
             <div className="visitor-img">
-              <img className="img5" src="img/img2.webp" alt="" />
-              <img className="img6" src="img/img3.webp" alt="" />
+              <img className="img5" src="img/Group 168.webp" alt="" />
+              <img className="img6" src="img/Group 71.webp" alt="" />
             </div>
 
             <div className="visitor-images">
               <img className="para-img" src="img/Group 87.webp" alt="" />
             </div>
             <div className="visitor-img-2">
-              <img className="img7" src="img/img4.webp" alt="" />
+              <img className="img7" src="img/Group 72.webp" alt="" />
               <div className="visit">
-                <img className="img8" src="img/img5.webp" alt="" />
-                <img className="img9" src="img/img6.webp" alt="" /></div>
+                <img className="img8" src="img/Group 167.webp" alt="" />
+                <img className="img9" src="img/Group 169.webp" alt="" /></div>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ function App() {
               <img className="img15" src="img/Video.webp" alt="" />
               <img className="img14" src="img/Group 174.webp" alt="" />
               </div>
-              <img className="img12" src="img/c1.webp" alt="" />
+              <img className="img12" src="img/Group 71 (1).webp" alt="" />
               <img className="img13" src="img/c3 (2).webp" alt="" />
             </div>
             <div className="customer-heading">
@@ -111,7 +111,7 @@ function App() {
             <p class="text">3 Case Studies</p>
             <hr />
             </div>
-       <img  src="img/Group 4.svg" alt="" />
+       <img className="icon" src="img/Group 4.webp" alt="" />
         </div>
         <div class="item">
             <p class="number">02</p>
@@ -120,7 +120,7 @@ function App() {
             <p class="text">3 Case Studies</p>
             <hr />
             </div>
-       <img  className='icon' src="img/Group 4.svg" alt="" /> 
+       <img  className='icon' src="img/Group 4.webp" alt="" /> 
         </div>
         <div class="item">
             <p class="number">03</p>
@@ -129,7 +129,7 @@ function App() {
             <p class="text">3 Case Studies</p>
             <hr />
             </div>
-       <img src="img/Group 4.svg" alt="" />
+       <img   className='icon' src="img/Group 4.webp" alt="" />
 </div>
         <div class="item">
             <p class="number">04</p>
@@ -138,7 +138,7 @@ function App() {
             <p class="text">3 Case Studies</p>
             <hr />
             </div>
-       <img  className='icon' src="img/Group 4.svg" alt="" />
+       <img  className='icon' src="img/Group 4.webp" alt="" />
         </div>
         <div class="item">
             <p class="number">05</p>
@@ -146,7 +146,7 @@ function App() {
             <h2 className='Acc-head'>News Portal</h2>
             <p class="text">3 Case Studies</p>
             </div>
-       <img className='icon' src="img/Group 4.svg" alt="" />
+       <img className='icon' src="img/Group 4.webp" alt="" />
         </div>
       
     </div>
