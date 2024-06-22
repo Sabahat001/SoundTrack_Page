@@ -99,6 +99,65 @@ function App() {
         </div>
 
       </section>
+
+
+      <section className="AboutUs-section">
+        <div className="AboutUs-div">
+          <div className="AboutUs-grid">
+            <div className="AboutUs-heading">
+              <h1 className="AboutUs-head">Browse our <br />Case Study</h1>
+              <p className="About-Us-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="accordion">
+        <div class="item">
+            <p class="number">01</p>
+            <div className="heading-about">
+            <h2 className='Acc-head'>Online Shop</h2>
+            <p class="text">3 Case Studies</p>
+            <hr />
+            </div>
+       <img className='icon' src="img/Group 4.svg" alt="" />
+        </div>
+        <div class="item">
+            <p class="number">02</p>
+            <div className="heading-about">
+            <h2 className='Acc-head'>Portfolio Website</h2>
+            <p class="text">3 Case Studies</p>
+            <hr />
+            </div>
+       <img className='icon' src="img/Group 4.svg" alt="" /> 
+        </div>
+        <div class="item">
+            <p class="number">03</p>
+            <div className="heading-about">
+            <h2 className='Acc-head'>Company Profile</h2>
+            <p class="text">3 Case Studies</p>
+            <hr />
+            </div>
+       <img className='icon' src="img/Group 4.svg" alt="" />
+</div>
+        <div class="item">
+            <p class="number">04</p>
+            <div className="heading-about">
+            <h2 className='Acc-head'>Online Learning</h2>
+            <p class="text">3 Case Studies</p>
+            <hr />
+            </div>
+       <img  className='icon' src="img/Group 4.svg" alt="" />
+        </div>
+        <div class="item">
+            <p class="number">05</p>
+            <div className="heading-about">
+            <h2 className='Acc-head'>News Portal</h2>
+            <p class="text">3 Case Studies</p>
+            </div>
+       <img className='icon' src="img/Group 4.svg" alt="" />
+        </div>
+      
+    </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

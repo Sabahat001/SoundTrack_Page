@@ -46,20 +46,23 @@
 @font-face {
   font-family: 'MyCustomFont';
   src:
-    url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
+    url('./fonts/Poppins/Poppins-Medium.ttf') format('truetype'),
+    url('./fonts/Poppins/Poppins-Bold.ttf') format('truetype'),
+    url('./fonts/Poppins/Poppins-Light.ttf') format('truetype');
 }
 
 h1,
 h2,
 h3 {
   font-family: 'MyCustomFont', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 p,
 span {
   font-family: 'MyCustomFont', sans-serif;
-  /* font-weight: 200; */
+  font-weight: 400;
 }
 
 button {
@@ -156,7 +159,7 @@ button {
   color: #121212;
 }
 
-.head-para {
+.hero-para {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -164,6 +167,7 @@ button {
   margin-top: 34px;
   margin-bottom: 50px;
   opacity: 70%;
+  color: #21383E;
 }
 
 .img4 {
@@ -274,7 +278,7 @@ button {
   Height: 94px;
   position: absolute;
   top: 1300px;
-  right: 330px;
+  right: 290px;
   z-index: 5;
   object-fit: cover;
 }
@@ -302,7 +306,7 @@ button {
   row-gap: 12px;
   position: absolute;
   top: 1650px;
-  left: 1100px;
+  left: 1000px;
   z-index: 5;
   object-fit: cover;
 }
@@ -318,9 +322,10 @@ button {
 }
 
 /*customer-section*/
-.customer-section{
+.customer-section {
   margin-top: 60px;
 }
+
 .customer-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -330,21 +335,24 @@ button {
   margin-top: 164px;
   margin-left: 219px;
 }
-.customer-head{
+
+.customer-head {
   margin-bottom: 50px;
   font-weight: 400;
-font-size: 50px;
-line-height: 62px;
-letter-spacing: -0.5px;
+  font-size: 50px;
+  line-height: 62px;
+  letter-spacing: -0.5px;
 }
-.img12{
+
+.img12 {
   Width: 400px;
- Height: 649.91px;
- margin-left: 250px;
- position: relative;
- display: block;
+  Height: 649.91px;
+  margin-left: 250px;
+  position: relative;
+  display: block;
 }
-.img13{
+
+.img13 {
   position: absolute;
   top: 2080px;
   left: 510px;
@@ -353,7 +361,8 @@ letter-spacing: -0.5px;
   /* height: 227px;
   width: 227px; */
 }
-.img11{
+
+.img11 {
   position: relative;
   display: block;
   position: absolute;
@@ -363,14 +372,16 @@ letter-spacing: -0.5px;
   z-index: 5;
   object-fit: cover;
 }
-.img14{
+
+.img14 {
   position: absolute;
   top: 2600px;
   left: 240px;
   z-index: 5;
   object-fit: cover;
 }
-.img15{
+
+.img15 {
   position: absolute;
   top: 2590px;
   left: 160px;
@@ -383,8 +394,116 @@ letter-spacing: -0.5px;
   display: flex;
   z-index: 1;
 }
-.para{
+
+.para {
   margin-top: 50px;
   margin-left: 0;
 }
 
+/*about-us-section*/
+.AboutUs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 93px;
+  column-gap: 100px;
+}
+
+.AboutUs-heading {
+  margin-top: 150.09px;
+  margin-left: 130px;
+}
+
+.AboutUs-head {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  margin-bottom: 21px;
+  color: #121212;
+}
+
+.AboutUs-para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+  color: #404852;
+}
+
+
+
+
+
+.accordion {
+  width: 700px;
+  /* margin-left: 237px; */
+  margin-top: 150px;
+  margin-right: 130.78px;
+  /* margin: 100px auto; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.item {
+  /* box-shadow: 0 0 32px rgb(0, 0, 0, 0.1); */
+  /* padding: 24px; */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  /* column-gap: 24px; */
+  /* row-gap: 32px; */
+  /* align-items: center; */
+  Width:600.22px;
+Height: 153.5px;
+}
+
+.Acc-head {
+  margin-left: 84px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  letter-spacing: 0.83px;
+  color: #000000;
+}
+
+.text {
+  margin-left: 84px;
+  margin-bottom: 49.5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.5px;;
+  opacity: 50%;
+}
+
+.Acc-horizontal {
+  width: 600px;
+  Height: 1px;
+  border: 0.5px;
+  opacity: 40%;
+  color: #000000;
+}
+
+.number,
+.text {
+  /* font-size: 24px;
+  font-weight: 500; */
+}
+
+.number {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+  margin-top: 18px;
+  opacity: 34%;
+}
+
+
+.icon {
+  height: 19.61px;
+  width: 24.22px;
+  margin-top: 18px;
+/* transform: rotate(90deg); */
+}
