@@ -7,7 +7,7 @@ function App() {
       <section classNmae="Nav">
         <div className="main-nav">
           <div className="logos">
-            <img className="logo" src="img/logo.svg" alt="" />
+            <img className="logo" src="img/logo.webp" alt="" />
             <div className="titles">
               <p className="title">How it Works</p>
               <p className="title">Library</p>
@@ -31,14 +31,14 @@ function App() {
               <p className="hero-para">Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit, sed do eiusmod tempor incididunt ut labore</p>
             </div>
             <div className="hero-img">
-              <img className="img4" src="img/heroimg.svg" alt="" />
+              <img className="img4" src="img/Group 40.webp" alt="" />
             </div>
             <div className="hero-images">
-              <img className="img2" src="img/Group 19.svg" alt="" />
-              <img className="img1" src="img/Group 41.svg" alt="" />
+              <img className="img2" src="img/Group-19.webp" alt="" />
+              <img className="img1" src="img/Group 41.webp" alt="" />
             </div>
             <div className="hero-img-2">
-              <img className="img3" src="img/Group 42.svg" alt="" />
+              <img className="img3" src="img/Group 42.webp" alt="" />
             </div>
 
           </div>
@@ -56,18 +56,18 @@ function App() {
               <hr className='horizontal' />
             </div>
             <div className="visitor-img">
-              <img className="img5" src="img/img2.svg" alt="" />
-              <img className="img6" src="img/img3.svg" alt="" />
+              <img className="img5" src="img/img2.webp" alt="" />
+              <img className="img6" src="img/img3.webp" alt="" />
             </div>
 
             <div className="visitor-images">
-              <img className="para-img" src="img/para.svg" alt="" />
+              <img className="para-img" src="img/Group 87.webp" alt="" />
             </div>
             <div className="visitor-img-2">
-              <img className="img7" src="img/img4.svg" alt="" />
+              <img className="img7" src="img/img4.webp" alt="" />
               <div className="visit">
-                <img className="img8" src="img/img5.svg" alt="" />
-                <img className="img9" src="img/img6.svg" alt="" /></div>
+                <img className="img8" src="img/img5.webp" alt="" />
+                <img className="img9" src="img/img6.webp" alt="" /></div>
             </div>
           </div>
         </div>
@@ -79,25 +79,20 @@ function App() {
           <div className="customer-grid">
             <div className="customer-img">
               <div className="video">
-              <img className="img11" src="img/c2.svg" alt="" />
-              <img className="img15" src="img/c5.svg" alt="" />
-              <img className="img14" src="img/c4.svg" alt="" />
+              <img className="img11" src="img/Rectangle 5.webp" alt="" />
+              <img className="img15" src="img/Video.webp" alt="" />
+              <img className="img14" src="img/Group 174.webp" alt="" />
               </div>
-              <img className="img12" src="img/c1.svg" alt="" />
-              <img className="img13" src="img/c3.svg" alt="" />
+              <img className="img12" src="img/c1.webp" alt="" />
+              <img className="img13" src="img/c3 (2).webp" alt="" />
             </div>
             <div className="customer-heading">
               <h1 className="customer-head">It’s possible to do <br /> video call with  <br />your customers</h1>
               <hr className='horizontal' />
-              <img className="para" src="img/para.svg" alt="" />
+              <img className="para" src="img/Group 87.webp" alt="" />
             </div>
-
-
-
-
           </div>
         </div>
-
       </section>
 
 
@@ -116,7 +111,7 @@ function App() {
             <p class="text">3 Case Studies</p>
             <hr />
             </div>
-       <img className='icon' src="img/Group 4.svg" alt="" />
+       <img  src="img/Group 4.svg" alt="" />
         </div>
         <div class="item">
             <p class="number">02</p>
@@ -125,7 +120,7 @@ function App() {
             <p class="text">3 Case Studies</p>
             <hr />
             </div>
-       <img className='icon' src="img/Group 4.svg" alt="" /> 
+       <img  className='icon' src="img/Group 4.svg" alt="" /> 
         </div>
         <div class="item">
             <p class="number">03</p>
@@ -134,7 +129,7 @@ function App() {
             <p class="text">3 Case Studies</p>
             <hr />
             </div>
-       <img className='icon' src="img/Group 4.svg" alt="" />
+       <img src="img/Group 4.svg" alt="" />
 </div>
         <div class="item">
             <p class="number">04</p>

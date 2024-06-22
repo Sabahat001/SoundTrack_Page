@@ -179,6 +179,7 @@ button {
   /* Adjust the radius value as needed */
   margin-top: 90px;
   /* margin-left: 94px; */
+  object-fit: cover;
 }
 
 .hero-images {
@@ -198,6 +199,7 @@ button {
   border-bottom-left-radius: 180px;
   border-bottom-right-radius: 180px;
   margin-top: 50px;
+object-fit: cover;
 }
 
 .img2 {
@@ -222,6 +224,8 @@ button {
   position: relative;
   display: inline-block;
   z-index: -10;
+  overflow: hidden ;
+  background-size: cover;
 }
 
 /*visitor-section*/
