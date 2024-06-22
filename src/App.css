@@ -306,7 +306,7 @@ button {
   row-gap: 12px;
   position: absolute;
   top: 1650px;
-  left: 1000px;
+  left: 1050px;
   z-index: 5;
   object-fit: cover;
 }
