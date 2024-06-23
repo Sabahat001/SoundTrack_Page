@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <section classNmae="Nav">
-        <div className="main-nav">
+        <div className="Container main-nav">
           <div className="logos">
             <img className="logo" src="img/logo.webp" alt="" />
             <div className="titles">
@@ -25,7 +25,7 @@ function App() {
 
       <section className="Hero-section">
         <div className="hero-div">
-          <div className="hero-grid">
+          <div className="Container hero-grid">
             <div className="hero-heading">
               <h1 className="hero-head">Let’s Connect <br /> with Your Visitors  <br />in Real Time</h1>
               <p className="hero-para">Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit, sed do eiusmod tempor incididunt ut labore</p>
@@ -50,7 +50,7 @@ function App() {
 
       <section className="visitor-section">
         <div className="visitor-div">
-          <div className="visitor-grid">
+          <div className="Container visitor-grid">
             <div className="visitor-heading">
               <h1 className="visitor-head">Chat with visitors <br /> while they browse <br /> your site</h1>
               <hr className='horizontal' />
@@ -76,7 +76,7 @@ function App() {
 
       <section className="customer-section">
         <div className="customer-div">
-          <div className="customer-grid">
+          <div className="Container customer-grid">
             <div className="customer-img">
               <div className="video">
               <img className="img11" src="img/Rectangle 5.webp" alt="" />
@@ -98,10 +98,10 @@ function App() {
 
       <section className="AboutUs-section">
         <div className="AboutUs-div">
-          <div className="AboutUs-grid">
+          <div className="Container AboutUs-grid">
             <div className="AboutUs-heading">
               <h1 className="AboutUs-head">Browse our <br />Case Study</h1>
-              <p className="About-Us-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <p className="About-Us-para">Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit, sed do eiusmod tempor incididunt ut labore et <br /> dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
             <div class="accordion">
         <div class="item">
