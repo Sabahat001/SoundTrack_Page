@@ -41,6 +41,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
 @font-face {
@@ -64,7 +65,14 @@ span {
   font-family: 'MyCustomFont', sans-serif;
   font-weight: 400;
 }
-
+.container{
+  max-width: 1440px;
+ 
+  /* position: fixed; */
+}
+section{
+  overflow-x: hidden;
+}
 button {
   font-family: 'MyCustomFont', sans-serif;
   font-weight: 600;
@@ -280,9 +288,9 @@ object-fit: cover;
 .img5 {
   Width: 234px;
   Height: 94px;
-  position: absolute;
-  top: 1300px;
-  right: 320px;
+  position: relative;
+  top: 270px;
+  left: 225px;
   z-index: 5;
   object-fit: cover;
 }
@@ -308,9 +316,9 @@ object-fit: cover;
   display: flex;
   flex-direction: column;
   row-gap: 12px;
-  position: absolute;
-  top: 1650px;
-  left: 1100px;
+  position: relative;
+  bottom: 350px;
+  left: 330px;
   z-index: 5;
   object-fit: cover;
 }
@@ -357,8 +365,8 @@ object-fit: cover;
 }
 
 .img13 {
-  position: absolute;
-  top: 2080px;
+  position: relative;
+  bottom: 650px;
   left: 510px;
   z-index: 5;
   object-fit: cover;
@@ -367,8 +375,8 @@ object-fit: cover;
 }
 
 .img11 {
-  position: relative;
-  display: block;
+  /* position: relative;
+  display: block; */
   position: absolute;
   /* display: block; */
   top: 2530px;
@@ -397,6 +405,8 @@ object-fit: cover;
 .video {
   display: flex;
   z-index: 1;
+  position: relative;
+  bottom: 2070px;
 }
 
 .para {
